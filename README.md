@@ -122,6 +122,24 @@ sequenceDiagram
     S0-->>UA: 200(users)
 ```
 
+## Future Improvements
+
+This library currently supports **sequence diagrams** from HAR files. Planned enhancements include:
+
+### Upcoming Features
+- **Class Diagrams**: Generate class diagrams from HAR API endpoints, extracting resource structures and relationships from request/response bodies
+- **Enhanced Sequence Diagrams**: Support for headers visualization, WebSocket connections, error handling, timing information, and parallel requests
+- **Diagram Customization**: Theme support, custom styling, configurable participant names, and annotation options
+
+### Additional Considerations
+- State diagrams for workflow visualization
+- Support for multiple HAR format versions
+- Performance optimizations for large HAR files
+- CLI tool for command-line usage
+- Integration with popular API tools (Postman, Insomnia)
+
+For a complete list of planned improvements and feature requests, see [TODO.md](TODO.md).
+
 ## License
 
 MIT
