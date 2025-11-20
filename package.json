@@ -1,0 +1,37 @@
+{
+  "name": "har-to-mermaid",
+  "version": "0.1.0",
+  "description": "A library to generate Mermaid sequence diagrams from HAR (HTTP Archive) files",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test/test.js"
+  },
+  "keywords": [
+    "har",
+    "mermaid",
+    "sequence-diagram",
+    "http-archive",
+    "diagram",
+    "visualization"
+  ],
+  "author": "Gregory Buchenberger",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/buchenberg/har-to-mermaid.git"
+  },
+  "bugs": {
+    "url": "https://github.com/buchenberg/har-to-mermaid/issues"
+  },
+  "homepage": "https://github.com/buchenberg/har-to-mermaid#readme",
+  "engines": {
+    "node": ">=12.0.0"
+  },
+  "files": [
+    "index.js",
+    "lib/",
+    "README.md",
+    "LICENSE"
+  ]
+}
+
